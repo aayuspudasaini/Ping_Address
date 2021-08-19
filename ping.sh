@@ -3,7 +3,7 @@
 echo "Welcome $USER"
 echo "Enter the Address to PING:"
 read ADD
-if ping -c 1 $ADD 
+if ping -c 4 $ADD 
 then
 	echo "
 PING SUCCESSFUL !!! 
